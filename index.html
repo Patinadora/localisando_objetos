@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<script
+src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<script
+src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js" target="_blank"></script></head>
+<body background="11121314151617181910.JPG">
+    <center> 
+        <h1 class="btn btn-info heading">IA localizadora de objetos <br>
+        <h6>O nome de entrada que você fornecer deverá ser o mesmo presente no modelo CoCo, apenas assim o objeto será detectado
+            <br>
+            Portanto, visto que o modelo CoCo apresenta todos os seus objetos em inglês, você deverá escrever o nome do objeto desejado também em inglês, pois ele não realizará a identificação caso utilize o nome de um objeto em português.
+        </h6>
+        </h1>
+         <br>
+         <label>nome do objeto em ingles</label>
+         <br>
+
+<input type="text" class="form-control" id="objeto"><br><br>
+<button onclick="iniciar()"class="btn btn-success">iniciar</button><br>
+<h3 id="status" class="btn btn-danger">
+          </h3>
+           <br>
+            <h3 class="btn btn-success" style="font-size:15px;"></h3> 
+
+        </center>   
+        <script src="man.js"></script>
+</body>
+</html>
